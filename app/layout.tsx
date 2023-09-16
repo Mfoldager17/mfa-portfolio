@@ -1,28 +1,32 @@
-import Header from '@/components/Header'
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+/** @format */
 
-const inter = Inter({ subsets: ['latin'] })
+import Header from "@/components/Header";
+import "./globals.css";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Mathias | Personal Portfolio',
-  description: 'Portfolio of Mathias Foldager Andersen',
-}
+  title: "Mathias | Personal Portfolio",
+  description: "Portfolio of Mathias Foldager Andersen",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gradient-to-r from-slate-100 to-red-50 text-gray-600 relative h-[5000px] pt-28 sm:pt-36`}>
-
+      <body
+        id="home"
+        className={`${inter.className} bg-gradient-to-r from-slate-300 to-rose-100 text-gray-600 relative bg-opacity-50 h-[5000px] pt-28 sm:pt-36`}
+      >
         <Header />
         {children}
       </body>
 
     </html>
-  )
+  );
 }
