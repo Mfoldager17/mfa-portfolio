@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { LuRotate3D } from "react-icons/lu";
 
 const Intro = () => {
     return (
@@ -29,6 +28,7 @@ const Intro = () => {
                             priority={true}
                             className="rounded-full border-[0.35rem] border-white shadow-2xl shadow-slate-900 sm:w-[200px] sm:h-[200px]"
                         />
+
                     </motion.div>
 
                     <motion.span
@@ -41,7 +41,6 @@ const Intro = () => {
                     </motion.span>
                 </div>
             </div>
-
             <motion.h1
                 className="mb-10 mt-10 text-xl sm:text-2xl font-medium !leading-[1.5]"
                 initial={{ opacity: 0, y: 100 }}
@@ -56,7 +55,7 @@ const Intro = () => {
                     rel="noopener noreferrer"
                     className="text-cyan-700 underline hover:text-cyan-500"
                 >
-                    (PIT A/S)
+                    (PICIT A/S)
                 </a>{" "}
                 as a backend developer. My goal is to become a pretty decent fullstack
                 developer, as i love both the frontend and backend side of things.
@@ -84,20 +83,23 @@ const Intro = () => {
                     Download CV{" "}
                     <HiDownload className="opacity-60 group-hover:translate-y-1 duration-500" />
                 </a>
-                <a
-                    className="bg-gray-800 hover:scale-110  p-3 text-white text-2xl flex items-center gap-2 rounded-full active:scale-100 transition"
-                    href="https://github.com/Mfoldager17"
-                >
-                    {" "}
-                    <BsGithub />{" "}
-                </a>
-                <a
-                    className="bg-white hover:scale-110 p-3 text-blue-600 text-2xl flex items-center gap-2 rounded-full active:scale-100 transition"
-                    href="https://www.linkedin.com/in/mathias-foldager-andersen-b4b2a6230/"
-                >
-                    {" "}
-                    <BsLinkedin />{" "}
-                </a>
+                <div className="flex flex-row gap-4" >
+
+                    <a
+                        className="bg-gray-800 hover:scale-110  p-3 text-white text-2xl flex items-center gap-2 rounded-full active:scale-100 transition"
+                        href="https://github.com/Mfoldager17"
+                    >
+                        {" "}
+                        <BsGithub />{" "}
+                    </a>
+                    <a
+                        className="bg-white hover:scale-110 p-3 text-blue-600 text-2xl flex items-center gap-2 rounded-full active:scale-100 transition"
+                        href="https://www.linkedin.com/in/mathias-foldager-andersen-b4b2a6230/"
+                    >
+                        {" "}
+                        <BsLinkedin />{" "}
+                    </a>
+                </div>
             </motion.div>
         </section >
     );

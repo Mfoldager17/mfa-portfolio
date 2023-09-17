@@ -24,7 +24,7 @@ const About = () => {
                     href="https://www.picit.dk/"
                     className="text-cyan-700 underline hover:text-cyan-500"
                 >
-                    (PIT A/S).
+                    (PICIT A/S).
                 </a> I love the
                 feeling of figuring out a solution to a problem, and of course optimise the workflow for the relevant people.
                 My core stack
