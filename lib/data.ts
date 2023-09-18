@@ -1,6 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
 export const links = [
@@ -33,28 +32,41 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated High School",
+    location: "Viby J (Aarhus), Denmark",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated in 2016 after 3 year in High School with main courses in mathematics and physics.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2013 - 2016",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    title: "Worked as a Sales Assistant",
+    location: "'Super Brugsen' in Hasselager (Aarhus), Denmark",
+    description: "I worked as a sales assistant at a local store in Hasselager, Aarhus. I was responsible for the cash register, customer service and inventory management. I also learned alot about leadership in that period. I worked there for 8,5 years. Both parttime(during school) and fulltime.", 
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2013 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "AP Graduated in Computer Science",
+    location: "Business Academy Aarhus",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I graduated in 2022, after 2,5 years, with an AP degree in Computer Science. I learned about programming both Backend and frontend languages (Java, JS, React, Flutter/Dart, C#, and more), Databases, HTTP, Cyber Security, project management and much more",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019 - 2022",
+  },
+  {
+    title: "Working as a Back-end Developer",
+    location: "PicIT A/S in Aarhus, Denmark",
+    description: "Here i started as an intern during my last year of school. I was hired fulltime after my graduation. I am working with a language called Progress. I work with a team of 4 other developers. We are working agile. I have learned to work with a larger codebases/databases. I have also learned alot about the technologies we use.", 
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - Present",
+  },
+  {
+    title: "Working at Reshopper... Maybe?",
+    location: "",
+    description: "", 
+    icon: React.createElement(CgWorkAlt),
+    date: "Future",
   },
 ] as const;
 

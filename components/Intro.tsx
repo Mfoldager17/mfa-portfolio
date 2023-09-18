@@ -35,7 +35,7 @@ const Intro = () => {
                         initial={{ opacity: 0, scale: 1, rotate: 45 }}
                         animate={{ opacity: 1, scale: 1, rotate: 0 }}
                         transition={{ repeat: 6, duration: 0.5, repeatType: "reverse" }}
-                        className="text-6xl absolute bottom-0 right-0"
+                        className="text-5xl md:text-6xl absolute bottom-0 right-0"
                     >
                         👋
                     </motion.span>

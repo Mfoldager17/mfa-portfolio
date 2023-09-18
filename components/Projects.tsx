@@ -15,7 +15,7 @@ const Projects = () => {
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className='text-center'
+            className='text-center scroll-mt-28'
         >
 
             <SectionHeading>My Projects</SectionHeading>

@@ -6,6 +6,7 @@ import { projectsData } from '@/lib/data'
 import Project from '@/components/Project'
 import { motion } from 'framer-motion'
 import { useRouter } from 'next/navigation'
+import { BsArrowLeft } from 'react-icons/bs'
 
 const Projects = () => {
     const router = useRouter()
@@ -24,7 +25,7 @@ const Projects = () => {
                     </React.Fragment>
                 ))}
             </div>
-            <button className="hover:scale-110 transition py-3 bg-gray-100 rounded-full gap-2 w-96 text-lg font-medium" onClick={() => router.back()}>Go Back</button>
+            <button className="flex items-center justify-center hover:scale-110 transition py-3 bg-gray-100 rounded-full gap-2 w-96 text-lg font-medium" onClick={() => router.back()}>Go Back {" "}<BsArrowLeft className="hover:translate-x-2" /></button>
         </motion.section >
     )
 }
