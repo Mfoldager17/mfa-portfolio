@@ -6,7 +6,7 @@ import { projectsData } from '@/lib/data'
 import Project from './Project'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import { BsJournalCode } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 
 
 const Projects = () => {
@@ -28,7 +28,7 @@ const Projects = () => {
                 ))}
             </div>
             <div className='flex justify-center'>
-                <Link className='hover:scale-110 transition flex py-3 justify-center items-center bg-gray-100 rounded-full gap-2 w-96 text-lg font-medium' href="/projects">More Projects <BsJournalCode className="opacity-70" /></Link>
+                <Link className='group hover:scale-110 transition flex py-3 justify-center items-center bg-white rounded-full gap-2 w-80 text-lg font-medium' href="/projects">More Projects <BsArrowRight className="opacity-70 group-hover:translate-x-2 duration-500" /></Link>
             </div>
         </motion.section >
     )

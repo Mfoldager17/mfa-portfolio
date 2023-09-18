@@ -69,14 +69,14 @@ const Intro = () => {
             >
                 <Link
                     href="#contact"
-                    className="group bg-gray-800 hover:scale-110 text-white rounded-full px-7 py-3 flex items-center gap-2 outline-none active:scale-100 transition"
+                    className="group w-[199px] bg-gray-800 hover:scale-110 text-white rounded-full px-7 py-3 flex items-center gap-2 outline-none active:scale-100 transition"
                 >
                     {" "}
                     Contact Me{" "}
                     <BsArrowRight className="opacity-70 group-hover:translate-x-2 duration-500" />
                 </Link>
                 <a
-                    className="group bg-white rounded-full hover:scale-110  px-7 py-3 flex items-center gap-2 outline-none active:scale-100 transition"
+                    className="group w-[199px] bg-white rounded-full hover:scale-110  px-7 py-3 flex items-center gap-2 outline-none active:scale-100 transition"
                     href="mfa-cv.pdf"
                     download
                 >
