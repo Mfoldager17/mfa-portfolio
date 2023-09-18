@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import NavBar from "@/components/NavBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,7 +25,7 @@ export default function RootLayout({
         className={`${inter.className} bg-gradient-to-r from-slate-300  to-red-50 text-gray-600 relative bg-opacity-50 h-[5000px] pt-28 sm:pt-36`}
 
       >
-        <Header />
+        <NavBar />
         {children}
       </body>
 
