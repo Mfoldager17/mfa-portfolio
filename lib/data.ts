@@ -72,47 +72,42 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Final School Assignment",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: "/mfa.jpg",
+      "My final school assignment. It is a web-app created by PicIT A/S where you can draw a profile of a train and simulate a certain rute",
+    tags: ["JavaScript", "CSS", "HTML", "MongoDB", "SVG", "Express"],
+    imageUrl: "/final-school-assignment.png",
   },
   {
-    title: "rmtDev",
+    title: "First Tailwind App",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: "/mfa.jpg",
+      "A simple one sided app, to learn about the fundamentels of Tailwind. It's a 'rental car web-app' with a simple design. It does not have any functions.. Yet.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
+    imageUrl: "/first-tailwind-app.png",
   },
   {
-    title: "Word Analytics",
+    title: "Next Auth Example",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: "/mfa.jpg",
+      "A simple login app, with Next Auth. It makes an easy dummy API call to get some simple data, if you are logged in.",
+    tags: ["React", "Next.js", "RESP API", "Tailwind CSS"],
+    imageUrl: "/nextauth_ex.png",
   },
   {
-    title: "rmtDev",
+    title: "MFA - Portfolio",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: "/mfa.jpg",
+      'My first "Biggere" project in Next.js. It is my personal portfolio. It has a dark mode, and a simple design with animation made with framer motion. It is hosted on Vercel.',
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Vercel", "Framer Motion"],
+    imageUrl: "/mfa-portfolio.png",
   },
   {
-    title: "rmtDev",
+    title: "First Next.js App",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: "/mfa.jpg",
+      "A very simple one sided app, to learn about the fundamentels of Next.js. Like using components and the App Router - file structure.",
+    tags: ["React", "Next.js", "TypeScript", "CSS"],
+    imageUrl: "/first-next-app.png",
   },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: "/mfa.jpg",
-  },
+
+
 ] as const;
 
 export const skillsData = [

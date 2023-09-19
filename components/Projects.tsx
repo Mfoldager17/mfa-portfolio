@@ -21,7 +21,7 @@ const Projects = () => {
             <SectionHeading>My Projects</SectionHeading>
 
             <div className='2xl:w-full 2xl:grid 2xl:grid-cols-2 2xl:gap-10 text-start mb-10'>
-                {projectsData.slice(1, 5).map((project, index) => (
+                {projectsData.slice(0, 4).map((project, index) => (
                     <React.Fragment key={index}>
                         <Project {...project} />
                     </React.Fragment>

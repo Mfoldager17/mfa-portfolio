@@ -26,7 +26,7 @@ export default function Project({ title, description, tags, imageUrl }: projectP
             }}
         >
 
-            <section className='bg-white max-w-[42rem] border border-black/5 rounded-xl overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-100 transition'>
+            <section className='bg-white max-w-[42rem] border border-black/5 rounded-xl overflow-hidden sm:pr-8 relative sm:h-[22rem] hover:bg-gray-100 transition'>
                 <div className='pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full '>
 
                     <h3 className='text-2xl font-semibold'>{title}</h3>
@@ -41,10 +41,10 @@ export default function Project({ title, description, tags, imageUrl }: projectP
                 <Image
                     src={imageUrl}
                     alt="hero image"
-                    width={300}
-                    height={300}
+                    width={700}
+                    height={500}
                     quality={100}
-                    className='absolute hidden sm:block top-6 -right-40 w-[28.25rem] h-[28.25rem] rounded-t-lg shadow-2xl 
+                    className='absolute hidden sm:block top-9 left-96 rounded-t-lg shadow-2xl
                 transition 
                 group-hover:scale-110
                 group-hover:-translate-x-3
