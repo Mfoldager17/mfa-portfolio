@@ -17,20 +17,20 @@ export default function NavBar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <div className='flex justify-end md:justify-center items-center bg-opacity-90 bg-white md:bg-inherit'>
+      <div className={`flex justify-end md:justify-center items-center ${navbarOpen ? "bg-opacity-90 bg-white" : "bg:none"}  md:bg-inherit`}>
 
-        <div className='h-12 flex items-center justify-end md:justify-center px-10 md:bg-opacity-80 md:bg-white md:rounded-full md:my-5'>
+        <div className='h-12 flex items-center justify-end md:justify-center px-10 md:bg-opacity-80 md:bg-white md:rounded-full md:my-5's>
 
-          <div className='mobile-menu block md:hidden bg-opacity-80  '>
+          <div className='mobile-menu block md:hidden bg-opacity-80'>
             {
               !navbarOpen ? (
-                <button onClick={() => setNavbarOpen(!navbarOpen)} className='flex items-center px-3 border rounded bg-opacity-80 border-gray-500 text-gray-500 focus:text-gray-800 hover:text-gray-800 hover:border-white'>
+                <button onClick={() => setNavbarOpen(!navbarOpen)} className='flex items-center px-3 border rounded bg-opacity-80 border-gray-500 text-gray-500 focus:text-gray-800 hover:text-gray-800 hover:border-gray-800'>
                   <Bars3Icon
                     className='h-7 w-7'
                   />
                 </button>
               ) : (
-                <button onClick={() => setNavbarOpen(!navbarOpen)} className='flex items-center px-3  border rounded bg-opacity-80 border-gray-500 text-gray-500 focus:text-gray-800 hover:text-gray-800 hover:border-white'>
+                <button onClick={() => setNavbarOpen(!navbarOpen)} className='flex items-center px-3  border rounded bg-opacity-80 border-gray-500 text-gray-500 focus:text-gray-800 hover:text-gray-800 hover:border-gray-800'>
                   <XMarkIcon className='h-7 w-7' />
                 </button>
               )

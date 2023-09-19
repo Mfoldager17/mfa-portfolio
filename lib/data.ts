@@ -35,7 +35,7 @@ export const experiencesData = [
     title: "Graduated High School",
     location: "Viby J (Aarhus), Denmark",
     description:
-      "I graduated in 2016 after 3 year in High School with main courses in mathematics and physics.",
+      "I graduated in 2016 after 3 years in High School with main courses in mathematics and physics.",
     icon: React.createElement(LuGraduationCap),
     date: "2013 - 2016",
   },
