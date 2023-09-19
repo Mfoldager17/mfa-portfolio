@@ -36,7 +36,13 @@ const Contact = () => {
                         return;
                     }
 
-                    toast.success("Email sent successfully!");
+                    toast.success("Email sent successfully!", {
+                        style: {
+                            borderRadius: '10px',
+                            background: '#333',
+                            color: '#fff',
+                        },
+                    });
 
                     setMessage("");
                     setEmail("");
