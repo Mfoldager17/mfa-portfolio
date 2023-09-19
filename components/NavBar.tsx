@@ -19,7 +19,7 @@ export default function NavBar() {
     >
       <div className={`flex justify-end md:justify-center items-center ${navbarOpen ? "bg-opacity-90 bg-white" : "bg:none"}  md:bg-inherit`}>
 
-        <div className='h-12 flex items-center justify-end md:justify-center px-10 md:bg-opacity-80 md:bg-white md:rounded-full md:my-5's>
+        <div className='h-12 flex items-center justify-end md:justify-center px-10 md:bg-opacity-80 md:bg-white md:rounded-full md:my-5'>
 
           <div className='mobile-menu block md:hidden bg-opacity-80'>
             {
