@@ -24,7 +24,7 @@ export default function NavBar() {
           <div className='mobile-menu block md:hidden bg-opacity-80'>
             {
               !navbarOpen ? (
-                <button onClick={() => setNavbarOpen(!navbarOpen)} className='flex items-center px-3 border rounded bg-opacity-80 border-gray-500 text-gray-500 focus:text-gray-800 hover:text-gray-800 hover:border-gray-800'>
+                <button onClick={() => setNavbarOpen(!navbarOpen)} className='flex items-center px-3 border rounded bg-white bg-opacity-80 border-gray-500 text-gray-500 focus:text-gray-800 hover:text-gray-800 hover:border-gray-800'>
                   <Bars3Icon
                     className='h-7 w-7'
                   />

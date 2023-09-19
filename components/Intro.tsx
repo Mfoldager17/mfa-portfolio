@@ -42,7 +42,7 @@ const Intro = () => {
                 </div>
             </div>
             <motion.h1
-                className="mb-10 mt-10 text-xl sm:text-2xl font-medium !leading-[1.5]"
+                className="mb-10 mt-10 text-xl sm:text-2xl px-3 font-medium !leading-[1.5]"
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}

@@ -9,7 +9,7 @@ import { experiencesData } from '@/lib/data';
 
 const Experience = () => {
     return (
-        <section id='experience'>
+        <section id='experience' className='scroll-mt-28'>
             <SectionHeading>My Experience</SectionHeading>
             <VerticalTimeline>
                 {
