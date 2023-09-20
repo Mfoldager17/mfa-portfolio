@@ -10,7 +10,7 @@ const NavLink = ({ hash, name, handleClick }: NavLinkProps) => {
         < Link
             onClick={handleClick}
             href={hash}
-            className="block py-2 pl-3 pr-4 text-gray-600 sm:text-xl md:p-0 hover:text-gray-800"
+            className="block py-2 pl-3 pr-4 text-gray-600 sm:text-xl md:p-0 hover:text-gray-800 dark:text-white"
         >
             {name}
         </Link >

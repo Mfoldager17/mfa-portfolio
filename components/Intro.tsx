@@ -22,11 +22,11 @@ const Intro = () => {
                         <Image
                             src="/mfa.jpg"
                             alt="hero image"
-                            width={150}
-                            height={150}
+                            width={200}
+                            height={200}
                             quality={100}
                             priority={true}
-                            className="rounded-full border-[0.35rem] border-white shadow-2xl shadow-slate-900 sm:w-[200px] sm:h-[200px]"
+                            className="rounded-full dark:border-none shadow-xl shadow-slate-700 sm:w-[300px] sm:h-[300px]"
                         />
 
                     </motion.div>
@@ -35,7 +35,7 @@ const Intro = () => {
                         initial={{ opacity: 0, scale: 1, rotate: 45 }}
                         animate={{ opacity: 1, scale: 1, rotate: 0 }}
                         transition={{ repeat: 6, duration: 0.5, repeatType: "reverse" }}
-                        className="text-5xl md:text-6xl absolute bottom-0 right-0"
+                        className="text-5xl md:text-6xl absolute bottom-0 right-5"
                     >
                         👋
                     </motion.span>
@@ -69,14 +69,14 @@ const Intro = () => {
             >
                 <Link
                     href="#contact"
-                    className="group w-[199px] bg-gray-800 hover:scale-110 text-white rounded-full px-7 py-3 flex items-center gap-2 outline-none active:scale-100 transition"
+                    className="group w-[199px] bg-gray-800 dark:bg-slate-950 hover:scale-110 text-white rounded-full px-7 py-3 flex items-center gap-2 outline-none active:scale-100 transition"
                 >
                     {" "}
                     Contact Me{" "}
                     <BsArrowRight className="opacity-70 group-hover:translate-x-2 duration-500" />
                 </Link>
                 <a
-                    className="group w-[199px] bg-white rounded-full hover:scale-110  px-7 py-3 flex items-center gap-2 outline-none active:scale-100 transition"
+                    className="group w-[199px] bg-white rounded-full hover:scale-110  px-7 py-3 flex items-center gap-2 outline-none active:scale-100 transition dark:bg-white/20 dark:text-white"
                     href="mfa-cv.pdf"
                     download
                 >
@@ -86,14 +86,14 @@ const Intro = () => {
                 <div className="flex flex-row gap-4" >
 
                     <a
-                        className="bg-gray-800 hover:scale-110  p-3 text-white text-2xl flex items-center gap-2 rounded-full active:scale-100 transition"
+                        className="bg-gray-800 dark:bg-slate-950 hover:scale-110  p-3 text-white text-2xl flex items-center gap-2 rounded-full active:scale-100 transition "
                         href="https://github.com/Mfoldager17"
                     >
                         {" "}
                         <BsGithub />{" "}
                     </a>
                     <a
-                        className="bg-white hover:scale-110 p-3 text-blue-600 text-2xl flex items-center gap-2 rounded-full active:scale-100 transition"
+                        className="bg-white hover:scale-110 p-3 text-blue-600 text-2xl flex items-center gap-2 rounded-full active:scale-100 transition dark:bg-white/20 dark:text-white"
                         href="https://www.linkedin.com/in/mathias-foldager-andersen-b4b2a6230/"
                     >
                         {" "}

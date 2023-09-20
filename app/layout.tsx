@@ -1,13 +1,11 @@
-/** @format */
-
-import Header from "@/components/Header";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import { Toaster } from "react-hot-toast";
-import ChangeTheme from "@/components/Change-theme";
+import ThemeContextProvider from "@/context/theme-context";
+import ThemeSwitch from "@/components/theme-switch";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,14 +23,20 @@ export default function RootLayout({
     <html lang="en">
       <body
         id="home"
-        className={`${inter.className}  bg-gradient-to-r  from-slate-100 to-stone-300 text-gray-600 relative bg-opacity-50 pt-28 sm:pt-36`}
+        className={`${inter.className}  bg-slate-300 text-gray-600 relative bg-opacity-50 pt-28 sm:pt-36 dark:bg-slate-900 dark:text-gray-300 dark:bg-opacity-90`}
 
       >
-        <NavBar />
-        {children}
-        <Footer />
-        <Toaster position="bottom-center" />
-        <ChangeTheme />
+        <div className="bg-green-100 absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-green-100"></div>
+        <div className="bg-slate-400 absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] "></div>
+
+        <ThemeContextProvider>
+          
+          <NavBar />
+          {children}
+          <Footer />
+          <Toaster position="bottom-center" />
+          <ThemeSwitch />
+        </ThemeContextProvider>
       </body>
 
     </html>

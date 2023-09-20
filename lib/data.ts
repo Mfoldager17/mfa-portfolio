@@ -77,6 +77,7 @@ export const projectsData = [
       "My final school assignment. It is a web-app created by PicIT A/S where you can draw a profile of a train and simulate a certain rute",
     tags: ["JavaScript", "CSS", "HTML", "MongoDB", "SVG", "Express"],
     imageUrl: "/final-school-assignment.png",
+    githubUrl: "https://github.com/Mfoldager17/FinalHovedopgave"
   },
   {
     title: "First Tailwind App",
@@ -84,6 +85,7 @@ export const projectsData = [
       "A simple one sided app, to learn about the fundamentels of Tailwind. It's a 'rental car web-app' with a simple design. It does not have any functions.. Yet.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
     imageUrl: "/first-tailwind-app.png",
+    githubUrl: "https://github.com/Mfoldager17/nextjs-rest"
   },
   {
     title: "Next Auth Example",
@@ -91,6 +93,7 @@ export const projectsData = [
       "A simple login app, with Next Auth. It makes an easy dummy API call to get some simple data, if you are logged in.",
     tags: ["React", "Next.js", "RESP API", "Tailwind CSS"],
     imageUrl: "/nextauth_ex.png",
+    githubUrl: "https://github.com/Mfoldager17/next-auth-ex"
   },
   {
     title: "MFA - Portfolio",
@@ -98,6 +101,7 @@ export const projectsData = [
       'My first "Biggere" project in Next.js. It is my personal portfolio. It has a dark mode, and a simple design with animation made with framer motion. It is hosted on Vercel.',
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Vercel", "Framer Motion"],
     imageUrl: "/mfa-portfolio.png",
+    githubUrl: "https://github.com/Mfoldager17/mfa-portfolio"
   },
   {
     title: "First Next.js App",
@@ -105,6 +109,7 @@ export const projectsData = [
       "A very simple one sided app, to learn about the fundamentels of Next.js. Like using components and the App Router - file structure.",
     tags: ["React", "Next.js", "TypeScript", "CSS"],
     imageUrl: "/first-next-app.png",
+    githubUrl: "https://github.com/Mfoldager17/myFirstApp"
   },
 
 
@@ -120,14 +125,15 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
   "Framer Motion",
+  "Java",
+  "C#",
+  "Flutter",
+  "Dart",
+  "Progress",
+  "MSSQL",
+  "REST API",
 ] as const;

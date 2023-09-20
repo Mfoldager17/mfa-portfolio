@@ -23,11 +23,11 @@ const Skills = () => {
     <section id="skills" className="scroll-mt-28 max-w-[53rem] text-center"
     >
       <SectionHeading>My Skills</SectionHeading>
-      <ul className="flex flex-wrap justify-center gap-4 text-lg text-gray-800 ">
+      <ul className="flex flex-wrap justify-center gap-4 text-lg text-gray-800 dark:text-gray-300 ">
         {
           skillsData.map((skill, index) => (
             <motion.li
-              className="bg-white cursor-default border border-black/[0.25] rounded-lg px-4 py-1 "
+              className="bg-white dark:bg-white/20 cursor-default border border-black/[0.25] rounded-lg px-4 py-1 "
               key={index}
               variants={fadeInAnimationVariants}
               initial="initial"

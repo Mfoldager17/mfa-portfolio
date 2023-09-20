@@ -28,7 +28,7 @@ const Projects = () => {
                 ))}
             </div>
             <div className='flex justify-center'>
-                <Link className='group hover:scale-110 transition flex py-3 justify-center items-center bg-white rounded-full gap-2 w-80 text-lg font-medium' href="/projects">More Projects <BsArrowRight className="opacity-70 group-hover:translate-x-2 duration-500" /></Link>
+                <Link className='group hover:scale-110 transition flex py-3 justify-center items-center bg-white rounded-full gap-2 w-80 text-lg font-medium dark:bg-white/20 dark:hover:bg-white/30' href="/projects">More Projects <BsArrowRight className="opacity-70 group-hover:translate-x-2 duration-500" /></Link>
             </div>
         </motion.section >
     )

@@ -25,7 +25,7 @@ const Projects = () => {
                     </React.Fragment>
                 ))}
             </div>
-            <button className="flex items-center justify-center hover:scale-110 transition py-3 bg-gray-100 rounded-full gap-2 w-96 text-lg font-medium" onClick={() => router.back()}>Go Back {" "}<BsArrowLeft className="hover:translate-x-2" /></button>
+            <button className=" dark:bg-white/20 flex items-center justify-center hover:scale-110 transition py-3 bg-gray-100 rounded-full gap-2 w-96 text-lg font-medium" onClick={() => router.back()}>Go Back {" "}<BsArrowLeft className="hover:translate-x-2" /></button>
         </motion.section >
     )
 }
