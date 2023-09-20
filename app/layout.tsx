@@ -7,6 +7,7 @@ import { Inter } from "next/font/google";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import { Toaster } from "react-hot-toast";
+import ChangeTheme from "@/components/Change-theme";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,6 +32,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <Toaster position="bottom-center" />
+        <ChangeTheme />
       </body>
 
     </html>
