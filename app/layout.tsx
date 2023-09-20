@@ -23,12 +23,11 @@ export default function RootLayout({
     <html lang="en">
       <body
         id="home"
-        className={`${inter.className}  bg-gray-100 text-gray-600 relative bg-opacity-50 pt-28 sm:pt-36 dark:bg-slate-900 dark:text-gray-300 dark:bg-opacity-90`}
+        className={`${inter.className}  bg-gray-300 text-gray-600 relative bg-opacity-50 pt-28 sm:pt-36 dark:bg-slate-900 dark:text-gray-300 dark:bg-opacity-90`}
 
       >
-        <div className="bg-slate-400 absolute top-[-5rem] -z-10 left-[10%] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] "></div>
-        <div className="bg-slate-200 absolute top-[-5rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-slate-600 lg:left-[28rem] xl:left-[15rem] 2xl:right-[-5rem] "></div>
-
+        <div className="absolute top-0 left-0 -z-10 bg-cyan-100 h-96 pr-[50%] blur-[12rem] rounded-full"></div>
+        <div className="absolute top-0 right-0 -z-10 bg-red-100 dark:bg-lime-100 h-96 pl-[50%] blur-[12rem] rounded-full"></div>
         <ThemeContextProvider>
           
           <NavBar />
