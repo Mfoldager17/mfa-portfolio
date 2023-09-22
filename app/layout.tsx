@@ -28,7 +28,7 @@ export default function RootLayout({
 
       >
         <div className="absolute top-0 left-0 -z-10 bg-cyan-100 dark:bg-cyan-200 h-96 pr-[50%] dark:blur-[10rem] blur-[6rem] sm:blur-[15rem] dark:sm:blur-[15rem] rounded-full"></div>
-        <div className="absolute top-0 right-0 -z-10 bg-pink-100 dark:sm:bg-lime-100 dark:bg-lime-200 h-96 pl-[50%] blur-[7rem] dark:blur-[10rem] dark:sm:blur-[15rem] sm:blur-[18rem] rounded-full"></div>
+        <div className="absolute top-0 right-0 -z-10 bg-pink-100 dark:sm:bg-lime-100 dark:bg-lime-200 h-96 pl-[50%] blur-[7rem] dark:blur-[11rem] dark:sm:blur-[15rem] sm:blur-[18rem] rounded-full"></div>
         <ThemeContextProvider>
           <NavBar />
           {children}
