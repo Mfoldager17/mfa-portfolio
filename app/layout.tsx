@@ -9,6 +9,7 @@ import ThemeSwitch from "@/components/theme-switch";
 
 const inter = Inter({ subsets: ["latin"] });
 
+
 export const metadata: Metadata = {
   title: "Mathias | Personal Portfolio",
   description: "Portfolio of Mathias Foldager Andersen",
