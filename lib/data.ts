@@ -61,6 +61,13 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2019 - Present",
   },
+  {
+    title: "Working as a Back-end Developer",
+    location: "PicIT A/S in Aarhus, Denmark",
+    description: "Here i started as an intern during my last year of school. I was hired fulltime after my graduation. I am working with a language called Progress. I work with a team of 4 other developers. We are working agile. I have learned to work with a larger codebases/databases. I have also learned alot about the technologies we use.", 
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - Present",
+  }
 ] as const;
 
 export const projectsData = [
