@@ -17,14 +17,14 @@ export default function NavBar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <div className={`flex justify-end md:justify-center items-center ${navbarOpen ? "bg-opacity-90 bg-white dark:bg-slate-900 dark:bg-opacity-90" : "bg:none"}  md:bg-inherit`}>
+      <div className={`flex justify-end md:justify-center items-center ${navbarOpen ? "bg-opacity-90 bg-white dark:bg-slate-800 dark:bg-opacity-80 ": "bg:none"}  md:bg-inherit`}>
 
         <div className='h-12 flex items-center justify-end md:justify-center md:px-10 md:bg-opacity-80 md:bg-white md:dark:bg-slate-700 md:dark:bg-opacity-90 md:rounded-full md:my-5'>
 
           <div className='mobile-menu block md:hidden bg-opacity-80'>
             {
               !navbarOpen ? (
-                <button onClick={() => setNavbarOpen(!navbarOpen)} className='flex items-center mx-3 px-3 rounded bg-white bg-opacity-80 border-gray-500 text-gray-500 dark:bg-slate-900 dark:bg-opacity-80 dark:text-slate-400'>
+                <button onClick={() => setNavbarOpen(!navbarOpen)} className='flex items-center mx-3 px-3 rounded bg-white bg-opacity-80 border-gray-500 text-gray-500 dark:bg-slate-800 dark:bg-opacity-80 dark:text-slate-400'>
                   <Bars3Icon
                     className='h-7 w-7'
                   />
