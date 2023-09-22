@@ -61,13 +61,6 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2019 - Present",
   },
-  {
-    title: "Working at Reshopper... Maybe?",
-    location: "",
-    description: "", 
-    icon: React.createElement(CgWorkAlt),
-    date: "Future",
-  },
 ] as const;
 
 export const projectsData = [
