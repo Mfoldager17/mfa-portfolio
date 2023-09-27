@@ -59,7 +59,14 @@ export const experiencesData = [
     location: "PicIT A/S in Aarhus, Denmark",
     description: "Here i started as an intern during my last year of school. I was hired fulltime after my graduation. I am working with a language called Progress. I work with a team of 4 other developers. We are working agile. I have learned to work with a larger codebases/databases. I have also learned alot about the technologies we use.", 
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - Present",
+    date: "2021 - Present",
+  },
+  {
+    title: "Working as a Fullstack Developer",
+    location: "Reshopper A/S in Aarhus C, Denmark",
+    description: "I am working fulltime at Reshopper A/S and i'm working with technoligies/languages like C#, React/Next.js, CSS, PostgreSQL, AWS, Swagger, ElasticSearch and many more. Download my CV to see the full tech-stack.", 
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - Present",
   },
 
 ] as const;
