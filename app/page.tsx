@@ -1,25 +1,20 @@
-import About from "@/components/About";
-import Contact from "@/components/Contact";
-import Experience from "@/components/Experience";
-import Intro from "@/components/Intro";
-import Projects from "@/components/Projects";
-import SectionDivider from "@/components/SectionDivider";
-import Skills from "@/components/Skills";
+import SectionDivider from '@/components/SectionDivider';
+import { Box } from '@mui/material'
+import Link from 'next/link';
 
 export default function Home() {
+
   return (
-    <main className="flex flex-col items-center justify-center" >
-      <Intro />
+    <Box sx={{ display: 'flex', mt: 20, placeContent: 'center', alignItems: 'center', flexDirection: 'column', textAlign: { xs: 'center', sm: 'left' } }}>
+      <span className='text-3xl '>
+        Welcome to my website <br />
+        My name is Mathias Foldager Andersen and I am a fullstack developer.
+      </span>
       <SectionDivider />
-      <About />
-      <SectionDivider />
-      <Projects />
-      <SectionDivider />
-      <Skills />
-      <SectionDivider />
-      <Experience />
-      <SectionDivider />
-      <Contact />
-    </main>
+      <Box sx={{ display: 'flex', gap: 2, flexDirection: 'column', width: '100%', placeContent: 'center', alignItems: 'center' }}>
+        <Link className='bg-stone-800 hover:scale-110 transition duration-700 focus:scale-110 rounded-full p-5 w-[100%] sm:w-[500px] text-center' href='/portfolio'> My PortFolio </Link>
+        <Link className='bg-stone-800 hover:scale-110 transition duration-700 focus:scale-110 rounded-full p-5 w-[100%] sm:w-[500px] text-center' href='/admin'> Admin Login</Link>
+      </Box>
+    </Box>
   );
 }

@@ -5,27 +5,27 @@ import { LuGraduationCap } from "react-icons/lu";
 export const links = [
   {
     name: "Home",
-    hash: "/#home",
+    hash: "portfolio#home",
   },
   {
     name: "About",
-    hash: "/#about",
+    hash: "portfolio#about",
   },
   {
     name: "Projects",
-    hash: "/#projects",
+    hash: "portfolio#projects",
   },
   {
     name: "Skills",
-    hash: "/#skills",
+    hash: "portfolio#skills",
   },
   {
     name: "Experience",
-    hash: "/#experience",
+    hash: "portfolio#experience",
   },
   {
     name: "Contact",
-    hash: "/#contact",
+    hash: "portfolio#contact",
   },
   
 ] as const;
