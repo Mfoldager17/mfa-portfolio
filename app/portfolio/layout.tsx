@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import NavBar from "@/components/NavBar";
-import Footer from "@/components/Footer";
 import { Toaster } from "react-hot-toast";
 import ThemeContextProvider from "@/context/theme-context";
 import ThemeSwitch from "@/components/theme-switch";

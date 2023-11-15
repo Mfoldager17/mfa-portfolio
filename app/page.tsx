@@ -1,7 +1,6 @@
 import SectionDivider from '@/components/SectionDivider';
 import StyledDashboardLink from '@/components/admin/StyledDashboardLink';
 import { Box } from '@mui/material'
-import Link from 'next/link';
 
 export default function Home() {
 
