@@ -21,7 +21,6 @@ export default function PortfolioLayout({
         <ThemeContextProvider>
             <NavBar />
             {children}
-            <Footer />
             <Toaster position="bottom-center" />
             <ThemeSwitch />
         </ThemeContextProvider>

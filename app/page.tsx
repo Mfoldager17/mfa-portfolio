@@ -1,4 +1,5 @@
 import SectionDivider from '@/components/SectionDivider';
+import StyledDashboardLink from '@/components/admin/StyledDashboardLink';
 import { Box } from '@mui/material'
 import Link from 'next/link';
 
@@ -12,8 +13,8 @@ export default function Home() {
       </span>
       <SectionDivider />
       <Box sx={{ display: 'flex', gap: 2, flexDirection: 'column', width: '100%', placeContent: 'center', alignItems: 'center' }}>
-        <Link className='bg-stone-800 hover:scale-110 transition duration-700 focus:scale-110 rounded-full p-5 w-[100%] sm:w-[500px] text-center' href='/portfolio'> My PortFolio </Link>
-        <Link className='bg-stone-800 hover:scale-110 transition duration-700 focus:scale-110 rounded-full p-5 w-[100%] sm:w-[500px] text-center' href='/admin'> Admin Login</Link>
+        <StyledDashboardLink text='My Portfolio' href='/portfolio' />
+        <StyledDashboardLink text='Admin Login' href='/admin' />
       </Box>
     </Box>
   );
